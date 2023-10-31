@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://github.com/Unintellectual">
     <img src="asset/noah.png" width="32px" alt="Noah Victoriano" /></a>
+    <sh1> Noah Victoriano </sh1>
 </p>
 
 <!-- Social icons section -->
