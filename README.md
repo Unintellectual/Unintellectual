@@ -7,7 +7,7 @@
 
 <!-- Social icons section -->
 <p align="center">
-  <a href="https://www.facebook.com/vicmundane/"><img width="32px" alt="Facebook" title="Facebook" <img src="facebook.svg" > /></a>
+  <a href="https://www.facebook.com/vicmundane/"><img src="facebook.svg" width="32px" alt="Facebook" title="Facebook"  /></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/hWMVATDrA6" alt="Discord" title="Joemamu"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
