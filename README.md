@@ -1,9 +1,9 @@
 # Unintellectual
 
 <p align="center">
-  <a href="https://github.com/Unintellectual">
-    <img src="asset/noah.png" width="32px" alt="Noah Victoriano" /></a>
-    <sh1> Noah Victoriano </sh1>
+  <a href="https://github.com/Unintellectual"   >
+  <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv">via GIPHY</a></p>
+    
 </p>
 
 <!-- Social icons section -->
