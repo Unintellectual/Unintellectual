@@ -2,12 +2,12 @@
 
 <p align="center">
   <a href="https://github.com/Unintellectual">
-    <img src="" alt="Noah Victoriano" /></a>
+    <img src="asset/github-sign.png" alt="Noah Victoriano" /></a>
 </p>
 
 <!-- Social icons section -->
 <p align="center">
-  <a href="https://www.facebook.com/vicmundane/"><img src="facebook.svg" width="32px" alt="Facebook" title="Facebook"  /></a>
+  <a href="https://www.facebook.com/vicmundane/"><img src="svg/facebook.png" width="32px" alt="Facebook" title="Facebook"  /></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/hWMVATDrA6" alt="Discord" title="Joemamu"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
