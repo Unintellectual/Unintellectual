@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/Unintellectual">
-    <img src="asset/noah.png" alt="Noah Victoriano" /></a>
+    <img src="asset/noah.png" width="32px" alt="Noah Victoriano" /></a>
 </p>
 
 <!-- Social icons section -->
