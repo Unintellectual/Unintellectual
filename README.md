@@ -19,6 +19,8 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
 <img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg"/>
+<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg"/>
 <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
@@ -34,15 +36,15 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 #
 
-<details>
- <summary><h3>👨‍💻 Unintellectual's coding Journey</h3></summary>
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione ducimus autem quisquam expedita quaerat delectus fugit accusantium, laborum odit natus voluptates necessitatibus nisi, sunt laboriosam similique unde doloremque nostrum.
+<!---<details> --->
+ <!---<summary><h3>👨‍💻 Unintellectual's coding Journey</h3></summary>--->
+ <!---  Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione ducimus autem quisquam expedita quaerat delectus fugit accusantium, laborum odit natus voluptates necessitatibus nisi, sunt laboriosam similique unde doloremque nostrum.
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde a odio, quidem dicta maiores consequuntur esse rerum delectus quos tempora dolorum! Nobis, similique inventore, saepe aliquam quod itaque ullam architecto debitis consectetur corporis exercitationem illum, ducimus reiciendis natus. Consequatur molestiae quis pariatur reprehenderit enim quibusdam natus id explicabo molestias perspiciatis!
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione ducimus autem quisquam expedita quaerat delectus fugit accusantium, laborum odit natus voluptates necessitatibus nisi, sunt laboriosam similique unde doloremque nostrum.
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde a odio, quidem dicta maiores consequuntur esse rerum delectus quos tempora dolorum! Nobis, similique inventore, saepe aliquam quod itaque ullam architecto debitis consectetur corporis exercitationem illum, ducimus reiciendis natus. Consequatur molestiae quis pariatur reprehenderit enim quibusdam natus id explicabo molestias perspiciatis!
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione ducimus autem quisquam expedita quaerat delectus fugit accusantium, laborum odit natus voluptates necessitatibus nisi, sunt laboriosam similique unde doloremque nostrum.
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde a odio, quidem dicta maiores consequuntur esse rerum delectus quos tempora dolorum! Nobis, similique inventore, saepe aliquam quod itaque ullam architecto debitis consectetur corporis exercitationem illum, ducimus reiciendis natus. Consequatur molestiae quis pariatur reprehenderit enim quibusdam natus id explicabo molestias perspiciatis!
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione ducimus autem quisquam expedita quaerat delectus fugit accusantium, laborum odit natus voluptates necessitatibus nisi, sunt laboriosam similique unde doloremque nostrum.
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde a odio, quidem dicta maiores consequuntur esse rerum delectus quos tempora dolorum! Nobis, similique inventore, saepe aliquam quod itaque ullam architecto debitis consectetur corporis exercitationem illum, ducimus reiciendis natus. Consequatur molestiae quis pariatur reprehenderit enim quibusdam natus id explicabo molestias perspiciatis!
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde a odio, quidem dicta maiores consequuntur esse rerum delectus quos tempora dolorum! Nobis, similique inventore, saepe aliquam quod itaque ullam architecto debitis consectetur corporis exercitationem illum, ducimus reiciendis natus. Consequatur molestiae quis pariatur reprehenderit enim quibusdam natus id explicabo molestias perspiciatis!--->
 
 <!---[website]: https://fkcodes.com --->
