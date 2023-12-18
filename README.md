@@ -38,7 +38,7 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 
 ###  
-
+<div align="left">
 <h2 align="left">🧰 Languages</h2>
 
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
@@ -51,9 +51,12 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <br />
-<img align="left" alt="Go" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/golang/golang-plain.svg" />
+</div>
 
 ###
+
+<div align="left">
+<br />
 
 <h2 align="left">Tools</h2>
 
@@ -61,8 +64,8 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-
-
+<br />
+</div>
 ###
 
 <h3 align="left">🔥   My Stats : </h3>
