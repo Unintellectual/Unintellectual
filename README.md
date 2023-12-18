@@ -4,12 +4,18 @@
 
 I'm a development studies student but an aspiring software engineer. due to certaion circumstances I cannot partake on the college course that will lead to the path of being a software developer but nonetheless I'll polish my skills I can be equal with my peers.
 
-   <p align="left">
-      <a href="https://github.com/Unintellectual?tab=followers">
-         <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Unintellectual?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-      <a href="https://github.com/Unintellectual?tab=repositories&sort=stargazers">
-         <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Unintellectual?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-   </p>
+
+###
+
+<h3 align="left">🔥   My Stats :</h3>
+
+###
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
+
+###
 
 ---
 ###
