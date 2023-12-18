@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Unintellectual&"  />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=unintellectual&"  />
 </div>
 
 ###
