@@ -12,7 +12,7 @@ I'm a development studies student but an aspiring software engineer. due to cert
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=maurodesouza&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
 ###
