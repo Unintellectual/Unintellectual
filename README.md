@@ -8,6 +8,14 @@ I'm a development studies student but an aspiring software engineer. due to cert
 ---
 ###
 
+<h2 align="left">Stats</h2>
+
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
+
 ###
 
 <div align="left">
@@ -52,3 +60,11 @@ I'm a development studies student but an aspiring software engineer. due to cert
 </div>
 
 ###
+
+###
+
+<h2 align="left">Credits</h2>
+
+README generated with: https://profile-readme-generator.com/
+<br>
+Stats generated with: https://github.com/jstrieb/github-stats
