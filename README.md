@@ -6,15 +6,6 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 
 ---
-###
-
-<h2 align="left">Stats</h2>
-
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
-
 
 ###
 
@@ -43,14 +34,6 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <br />
 </div>
-
-###
-
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unintellectual&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
-
 
 
 ###
