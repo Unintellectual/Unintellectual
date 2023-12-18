@@ -1,21 +1,22 @@
-<h2 align="left">Hi 👋! My name is Noah Victoriano and I'm an aspiring Software Enginner.</h2>
+# 🏉 Noah Victoriano
 
+**`Digital Pirate (Developer/Creator)`**
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=unintellectual&"  />
-</div>
+I'm a development studies student but an aspiring software engineer. due to certaion circumstances I cannot partake on the college course that will lead to the path of being a software developer but nonetheless I'll polish my skills I can be equal with my peers.
 
+   <p align="left">
+      <a href="https://github.com/Unintellectual?tab=followers">
+         <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Unintellectual?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+      <a href="https://github.com/Unintellectual?tab=repositories&sort=stargazers">
+         <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Unintellectual?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+   </p>
+
+---
 ###
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unintellectual&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
-###
-
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
-
-###
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
