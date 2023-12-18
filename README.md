@@ -72,10 +72,10 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 <h2 align="left">Stats</h2>
 
-![](https://raw.githubusercontent.com/jpb25/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/jpb25/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/jpb25/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/jpb25/github-stats/master/generated/languages.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
 ###
 
