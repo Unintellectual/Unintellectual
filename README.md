@@ -28,19 +28,10 @@ I'm a development studies student but an aspiring software engineer. due to cert
 </div>
 
 
-
-###
-
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unintellectual&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
-</div>
-
-
 ###  
+
 <div align="left">
 <h2 align="left">🧰 Languages</h2>
-
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
@@ -55,6 +46,15 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 ###
 
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unintellectual&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+</div>
+
+
+
+###
+
 <div align="left">
 <br />
 
@@ -66,6 +66,8 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <br />
 </div>
+
+
 ###
 
 <h3 align="left">🔥   My Stats : </h3>
