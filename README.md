@@ -49,6 +49,14 @@ I'm a development studies student but an aspiring software engineer. due to cert
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Unintellectual&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+
+<h2 align="left">Stats</h2>
+
+![](https://raw.githubusercontent.com/Unintellectuals/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectuals/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Unintellectuals/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectuals/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
 </div>
 
 
