@@ -36,7 +36,7 @@ I'm a development studies student but an aspiring software engineer. due to cert
 ###
 
 <div align="left">
-<br />
+
 
 <h2 align="left">Tools</h2>
 
@@ -45,11 +45,8 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-<br />
+
 </div>
-
----
-
 
 ###
 
