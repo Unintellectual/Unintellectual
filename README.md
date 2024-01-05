@@ -50,6 +50,8 @@ I'm a development studies student but an aspiring software engineer. due to cert
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
 
 </div>
+<br>
+</br>
 
 
 ###
