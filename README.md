@@ -61,13 +61,16 @@ I'm a development studies student but an aspiring software engineer. due to cert
 ###
 
 
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
-
 
 <div align="left">
   <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
+
+
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
 
 ###
 
