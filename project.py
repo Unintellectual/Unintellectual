@@ -4,11 +4,12 @@ from pygame import mixer
 
 # Initialize pygame
 pygame.init()
+mixer.init()
 screen = pygame.display.set_mode((800, 600))
 
 # Background and Sound
 background = pygame.image.load('background.jpg')
-pygame.mixer.init(44100, -16,2,2048)
+mixer.music.load('background.wav')
 mixer.music.play(-1)
 
 
