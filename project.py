@@ -185,3 +185,10 @@ while running:
     show_score(textX, textY)
 
     pygame.display.update()
+
+
+
+    def main():
+        print()
+        if __name__ == "__main__":
+          main()

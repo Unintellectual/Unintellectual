@@ -1,24 +1,23 @@
-import pygame
-import math
+from unittest.mock import patch
+from project import show_score, player, enemy
 
+@patch('pygame.font.Font.render')
+@patch('pygame.Surface.blit')
+def test_show_score(mock_blit, mock_render):
+    x, y = 10, 10
+    score_value = 10
+    show_score(x, y)
+    mock_render.assert_called_once_with("Score : 10", True, (255, 255, 255))
+    mock_blit.assert_called_once()
 
-def test_isCollision():
-    enx, eny, bulx, buly = 100, 100, 100, 100
-    assert isCollisionP(enx, eny, bulx, buly) is True
+@patch('pygame.Surface.blit')
+def test_player(mock_blit):
+    x, y = 100, 100
+    player(x, y)
+    mock_blit.assert_called_once()
 
-    enx, eny, bulx, buly = 100, 100, 200, 200
-    assert isCollision(enx, eny, bulx, buly) is False
-
-def test_isCollisionP():
-    enx, eny, playx, playy = 100, 100, 100, 100
-    assert isCollisionP(enx, eny, playx, playy) is True
-
-    enx, eny, playx, playy = 100, 100, 200, 200
-    assert isCollisionP(enx, eny, playx, playy) is False
-
-if __name__ == "__main__":
-    from main import isCollision, isCollisionP
-
-    test_isCollision()
-    test_isCollisionP()
-    print("All tests passed!")
+@patch('pygame.Surface.blit')
+def test_enemy(mock_blit):
+    x, y, b = 200, 200, 0
+    enemy(x, y, b)
+    mock_blit.assert_called_once()
