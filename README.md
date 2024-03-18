@@ -1,8 +1,13 @@
-    # Sudoku-generator-solver
-    ### Video Demo:  https://youtu.be/cuHUVk-X0XA
-    ### Description: This is my sudoku generator and solver. this is based on my previous project that is implement in javascript and html.
+    # Bear Invaders - Dudu & Bubu version
+
+    ### Video Demo: https://youtu.be/x3vDu3wc-n8
+    ### Description:
+    This is my version of Space Invaders using pygame but I'll be using bears instead of the typical spaceship because it is cute.
 
     ## TODO:
-    - Python backend server
-    - Debug "solve_sudoku" function
+    Polish the dimensions of assets
+    Reduce game speed
+    Reduce game volume
+    get better assets
+
 

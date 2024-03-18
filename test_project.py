@@ -1,18 +1,24 @@
-from project import SudokuSolver
+import pygame
+import math
 
-def test_generate_sudoku():
-    solver = SudokuSolver()
-    solver.generate_sudoku()
-    assert len([cell for cell in solver.Cell if cell.value != 0]) >= 17
 
-def test_solve_sudoku():
-    solver = SudokuSolver()
-    solver.load_sudoku()
-    solver.solve_sudoku()
-    assert all(cell.value != 0 for cell in solver.Cell)
+def test_isCollision():
+    enx, eny, bulx, buly = 100, 100, 100, 100
+    assert isCollisionP(enx, eny, bulx, buly) is True
 
-def test_clear_gui():
-    solver = SudokuSolver()
-    solver.generate_sudoku()
-    solver.clear_gui()
-    assert all(cell.value == 0 for cell in solver.Cell)
+    enx, eny, bulx, buly = 100, 100, 200, 200
+    assert isCollision(enx, eny, bulx, buly) is False
+
+def test_isCollisionP():
+    enx, eny, playx, playy = 100, 100, 100, 100
+    assert isCollisionP(enx, eny, playx, playy) is True
+
+    enx, eny, playx, playy = 100, 100, 200, 200
+    assert isCollisionP(enx, eny, playx, playy) is False
+
+if __name__ == "__main__":
+    from main import isCollision, isCollisionP
+
+    test_isCollision()
+    test_isCollisionP()
+    print("All tests passed!")

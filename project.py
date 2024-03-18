@@ -1,131 +1,186 @@
-import random
+import math
+import pygame
+from pygame import mixer
 
-class Cell:
-    def __init__(self, row, column):
-        self.row = row
-        self.column = column
-        self.value = 0
-        self.square = self.square_number(row, column)
-        self.editable = True
+# Initialize pygame
+pygame.init()
+screen = pygame.display.set_mode((800, 600))
 
-    def square_number(self, row, column):
-        if row < 3 and column < 3:
-            return 0
-        elif row > 2 and row < 6 and column < 3:
-            return 1
-        elif row > 5 and column < 3:
-            return 2
-        elif row < 3 and column > 2 and column < 6:
-            return 3
-        elif row > 2 and row < 6 and column > 2 and column < 6:
-            return 4
-        elif row > 5 and column > 2 and column < 6:
-            return 5
-        elif row < 3 and column > 5:
-            return 6
-        elif row > 2 and row < 6 and column > 5:
-            return 7
-        elif row > 5 and column > 5:
-            return 8
-        else:
-            return -1
+# Background and Sound
+background = pygame.image.load('background.jpg')
+pygame.mixer.init(44100, -16,2,2048)
+mixer.music.play(-1)
 
-class SudokuSolver:
-    def __init__(self):
-        self.Cell = [Cell(row, col) for row in range(9) for col in range(9)]
 
-    def validate(self, value):
-        return value.isdigit() and 1 <= int(value) <= 9
+# Player
+playerImg = pygame.image.load('bubu.png')
+playerX = 370
+playerY = 480
+playerX_change = 0
 
-    def valid_check(self, cell, value):
-        for c in self.Cell:
-            if (c.row == cell.row or c.column == cell.column or c.square == cell.square) and c.value == value:
-                return False
+# Enemy
+alienImg = []
+enemyX = []
+enemyY = []
+enemyMoveX = []
+enemyMoveY = []
+num_of_enemies = 12
+first_enemyX = 700
+for i in range(num_of_enemies):
+    alienImg.append(pygame.image.load('enemy.png'))
+    enemyX.append(first_enemyX)
+    enemyY.append(50)
+    enemyMoveX.append(3)
+    enemyMoveY.append(3)
+    first_enemyX -= 60
+
+# Bullet
+bulletImg = pygame.image.load('bullet.png')
+bulletX = 0
+bulletY = 480
+bulletMoveY = 10
+bullet_state = "ready"
+
+# GUI-Score
+score_value = 0
+font = pygame.font.Font('freesansbold.ttf', 32)
+textX = 10
+textY = 10
+
+# GUI-GameOver
+game_over = False
+
+
+def show_score(x, y):
+    score = font.render("Score : " + str(score_value), True, (255, 255, 255))
+    screen.blit(score, (x, y))
+
+
+def player(x, y):
+    screen.blit(playerImg, (x, y))
+
+
+def enemy(x, y, b):
+    screen.blit(alienImg[b], (x, y))
+
+
+def fire_bullet(x, y):
+    global bullet_state
+    bullet_state = "fire"
+    screen.blit(bulletImg, (x + 16, y + 10))
+
+
+def isCollision(enx, eny, bulx, buly):
+    distance = math.sqrt((math.pow(enx - bulx, 2)) + (math.pow(eny - buly, 2)))
+    if distance < 27:
         return True
+    else:
+        return False
 
-    def solve_sudoku(self):
-        numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-        i = 0
-        n = 0
-        m = 1
 
-        while True:
-            if i == 81:
-                break
-            if self.Cell[i].editable:
-                if self.valid_check(self.Cell[i], numbers[n]):
-                    self.Cell[i].value = numbers[n]
-                    i += 1
-                    n = 0
-                    m = 1
-                else:
-                    if n == 8:
-                        self.Cell[i].value = 0
-                        i -= 1
-                        m = 0
-                        if self.Cell[i].value == 9:
-                            i -= 1
-                        n = self.Cell[i].value
-                    else:
-                        n += 1
-            else:
-                if m:
-                    i += 1
-                else:
-                    i -= 1
+def isCollisionP(enx, eny, playx, playy):
+    distance = math.sqrt((math.pow(enx - playx, 2)) + (math.pow(eny - playy, 2)))
+    if distance < 80:
+        return True
+    else:
+        return False
 
-    def import_puzzle(self):
-        return [[0,0,0,2,6,0,7,0,1],
-                [6,8,0,0,7,0,0,9,0],
-                [1,9,0,0,0,4,5,0,0],
-                [8,2,0,1,0,0,0,4,0],
-                [0,0,4,6,0,2,9,0,0],
-                [0,5,0,0,0,3,0,2,8],
-                [0,0,9,3,0,0,0,7,4],
-                [0,4,0,0,5,0,0,3,6],
-                [7,0,3,0,1,8,0,0,0]]
 
-    def load_sudoku(self):
-        self.clear_gui()
-        puzzle = self.import_puzzle()
-        for c in range(9):
-            for r in range(9):
-                if puzzle[c][r] != 0:
-                    self.Cell[c * 9 + r].value = puzzle[c][r]
-                    self.Cell[c * 9 + r].editable = False
+def endgame(var1):
+    if var1:
+        font_GameOver = pygame.font.Font('freesansbold.ttf', 32)
+        text_GameOver = font_GameOver.render("GAME OVER", True, (255, 255, 255))
+        screen.blit(text_GameOver, (300, 250))
+        show_score(textX, textY)
 
-    def generate_sudoku(self):
-        self.clear_gui()
-        for cell in self.Cell:
-            cell.editable = True
-            cell.value = random.randint(1, 9) if random.random() < 0.6 else 0
 
-    def clear_gui(self):
-        for cell in self.Cell:
-            cell.value = 0
-            cell.editable = True
+# Game Loop
+running = True
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                playerX_change = 10
+            if event.key == pygame.K_LEFT:
+                playerX_change = -10
+            if event.key == pygame.K_SPACE:
+                if bullet_state == "ready":
+                    bullet_sound = mixer.Sound('laser.wav')
+                    bullet_sound.play()
+                    fire_bullet(playerX, bulletY - 30)
+                    bulletX = playerX
+        if event.type == pygame.KEYUP:
+            if event.key == pygame.K_LEFT:
+                playerX_change = 0
+            if event.key == pygame.K_RIGHT:
+                playerX_change = 0
 
-def main():
-    solver = SudokuSolver()
-    solver.generate_sudoku()
-    print("Generated Sudoku:")
-    sudoku_gui(solver)
+    screen.fill((0, 191, 255))
+    screen.blit(background, (0, 0))
 
-    while True:
-        command = input("Enter 'solve' to get the solution: ")
-        if command.lower() == "solve":
-            solver.solve_sudoku()
-            print("\nSolved Sudoku:")
-            sudoku_gui(solver)
-            break
-        else:
-            print("Invalid command. Please enter 'solve' to get the solution.")
+    # Playermovement
+    playerX += playerX_change
+    if playerX > 715 or playerX < 25:
+        playerX_change = 0
+    player(playerX, playerY)
 
-def sudoku_gui(solver):
-    for row in range(9):
-        for col in range(9):
-            print(solver.Cell[row * 9 + col].value, end=" ")
-        print()
+    # Enemymovement
+    for i in range(num_of_enemies):
+        enemy(enemyX[i], enemyY[i], i)
+        enemyX[i] += enemyMoveX[i]
+        if enemyX[i] >= 736:
+            enemyMoveX[i] = -3
+            enemyY[i] += 50
+        if enemyX[i] <= 0:
+            enemyMoveX[i] = 3
+            enemyY[i] += 50
 
-if __name__ == "__main__":
-    main()
+        # Collision
+        collision = isCollision(enemyX[i], enemyY[i], bulletX, bulletY)
+        if collision:
+            explosion_sound = mixer.Sound('explosion.wav')
+            explosion_sound.play()
+            bulletY = 480
+            bullet_state = "ready"
+            score_value += 1
+            enemyX[i] = 900
+            enemyY[i] = 300
+            enemyMoveX[i] = 0
+            enemyMoveY[i] = 0
+
+    # Bulletmovement
+    if bulletY < 0:
+        bulletY = 480
+        bullet_state = "ready"
+
+    if bullet_state == "fire":
+        fire_bullet(bulletX, bulletY)
+        bulletY -= bulletMoveY
+
+    # Endgame
+    if score_value == 12:
+        for i in range(num_of_enemies):
+            enemyX[i] = 1000
+            enemyY[i] = 1000
+            enemyMoveX[i] = 0
+            enemyMoveY[i] = 0
+            font_WinGame = pygame.font.Font('freesansbold.ttf', 32)
+            text_WinGame = font_WinGame.render("Winner!", True, (255, 255, 255))
+            screen.blit(text_WinGame, (300, 250))
+
+    # GameOver
+    for i in range(num_of_enemies):
+        collision1 = isCollisionP(enemyX[i], enemyY[i], playerX, playerY)
+        if collision1:
+            for d in range(num_of_enemies):
+                enemyX[d] = 1000
+                enemyY[d] = 1000
+                enemyMoveX[d] = 0
+                enemyMoveY[d] = 0
+                game_over = True
+    endgame(game_over)
+    show_score(textX, textY)
+
+    pygame.display.update()
