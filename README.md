@@ -2,7 +2,7 @@
 
 **`Digital Pirate (Developer/Creator)`**
 
-I'm a development studies student but an aspiring software engineer. due to certaion circumstances I cannot partake on the college course that will lead to the path of being a software developer but nonetheless I'll polish my skills I can be equal with my peers.
+I'm a development studies student but an aspiring software engineer. Due to certain circumstances I cannot partake on the college course that will lead to the path of being a software developer but nonetheless I'll polish my skills I can be equal with my peers.
 
 
 ---
@@ -17,7 +17,7 @@ I'm a development studies student but an aspiring software engineer. due to cert
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
 </div>
   -->
-###  
+###
 
 <div align="left">
 <h2 align="left">🧰 Languages</h2>
@@ -61,16 +61,16 @@ I'm a development studies student but an aspiring software engineer. due to cert
 ###
 
 
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
-
 ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
 ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
+
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+</div>
 
 
 ###
