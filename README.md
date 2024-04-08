@@ -60,17 +60,25 @@ I'm a development studies student but an aspiring software engineer. Due to cert
 
 ###
 
-
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only)
-
-
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+<div align="center" dir="auto" <img style="max-width: 100%;" src="https://streak-stats.demolab.com?user=Love-Pengy&theme=radical&border_radius=10)](https://git.io/streak-stats" />
+ <img style="max-width: 100%;" src="https://streak-stats.demolab.com?user=Love-Pengy&theme=radical&border_radius=10)](https://git.io/streak-stats" />
 </div>
+
+
+<div align="center" dir="auto" <img style="max-width: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Love-Pengy&size_weight=0.5&count_weight=0.5&theme=radical" />
+ <img style="max-width: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Love-Pengy&size_weight=0.5&count_weight=0.5&theme=radical" />
+</div>
+<!---->
+<!-- ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-dark-mode-only) -->
+<!-- ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/overview.svg#gh-light-mode-only) -->
+<!-- ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-dark-mode-only) -->
+<!-- ![](https://raw.githubusercontent.com/Unintellectual/github-stats/master/generated/languages.svg#gh-light-mode-only) -->
+<!---->
+<!---->
+<!---->
+<!-- <div align="center"> -->
+<!--   <img src="https://streak-stats.demolab.com?user=Unintellectual&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  /> -->
+<!-- </div> -->
 
 
 ###
