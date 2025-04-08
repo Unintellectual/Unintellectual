@@ -44,7 +44,7 @@ I do coding stuff. My full profile is in my [personal website](https://noahvicto
 
 ###
 
-<div align="center" dir="auto" <img style="max-width: 100%;" src="https://streak-stats.demolab.com?user=Unintellectual&theme=omni&border_radius=10)](https://git.io/streak-stats)" />
+<div align="center" dir="auto" 
  <img style="max-width: 100%;" src="https://streak-stats.demolab.com?user=Unintellectual&theme=omni&border_radius=10)](https://git.io/streak-stats" />
 </div>
 
