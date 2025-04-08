@@ -1,4 +1,4 @@
-# 🏉 Noah Victoriano
+# Noah Victoriano
 
 I do coding stuff. My full profile is in my [personal website](https://noahvictoriano.netlify.app/).
 
@@ -7,7 +7,7 @@ I do coding stuff. My full profile is in my [personal website](https://noahvicto
 ###
 
 <div align="left">
-<h2 align="left">🧰 Languages</h2>
+<h2 align="left">Languages</h2>
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
