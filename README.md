@@ -1,6 +1,6 @@
 # Noah Victoriano
 
-I do coding stuff. My full profile is in my [personal website](https://noahvictoriano.netlify.app/).
+I do coding stuff. My full profile is in my [personal website](https://noah-victoriano.vercel.app/).
 
 ---
 
