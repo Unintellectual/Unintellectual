@@ -1,6 +1,6 @@
 # Noah Victoriano
 
-I do coding stuff. All my repos are migrated to my [codeberg](https://codeberg.org/Unintellectual20). My full profile is in my [personal website](https://noah-victoriano.vercel.app/).
+I do coding stuff. All my repos are migrated to my [codeberg](https://codeberg.org/Unintellectual20). My full profile is in my [personal website](https://noahv.netlify.app/).
 
 ---
 
