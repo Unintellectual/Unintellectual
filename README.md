@@ -1,7 +1,7 @@
 # Noah Victoriano
 
 I do coding stuff. My full profile is in my [personal website](https://noahv.netlify.app/).
-
+<!-- 
 ---
 
 ###
@@ -63,3 +63,4 @@ I do coding stuff. My full profile is in my [personal website](https://noahv.net
 README generated with: https://profile-readme-generator.com/
 <br>
 Stats generated with: https://github.com/jstrieb/github-stats
+ -->
